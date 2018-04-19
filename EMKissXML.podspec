@@ -1,10 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = 'EMKissXML'
-  s.version      = '1.0.0'
+  s.version      = '1.1.0'
   s.summary      = '自己用的一个KissXML版本，支持原创'
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage     = 'https://github.com/faterman/EMKissXML'
   s.author       = { 'faterman' => 'xxyformobile@163.com' }
-  s.source       = { :git => 'git@github.com:faterman/EMKissXML.git', :tag => s.version }
+  s.source       = { :git => 'https://github.com/faterman/EMKissXML.git', :tag => s.version }
 
   s.requires_arc = true
   s.default_subspecs = 'Standard'
