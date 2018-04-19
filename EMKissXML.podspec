@@ -1,7 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = 'KissXML'
+  s.name         = 'EMKissXML'
   s.version      = '5.0.3'
-  s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.summary      = '自己用的一个KissXML版本，支持原创'
   s.homepage     = 'https://github.com/faterman/EMKissXML'
   s.author       = { 'faterman' => 'xxyformobile@163.com' }
